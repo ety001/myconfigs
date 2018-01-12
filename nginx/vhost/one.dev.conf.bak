@@ -1,0 +1,25 @@
+server
+	{
+		listen 80;
+		server_name one.dev;
+		index index.html index.htm index.php default.html default.htm default.php;
+		root  /Users/ety001/wwwroot/onethink;
+
+        location / {
+            if ( !-e $request_filename ) {
+                rewrite (.*) /index.php?$1 last;
+            }
+        }
+
+		location ~ index\.php(/|$)
+			{
+				# comment try_files $uri =404; to enable pathinfo
+                try_files $uri =404;
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index index.php;
+				include fastcgi.conf;
+                fastcgi_param GFW_MODE debug;
+			}
+
+        access_log off;
+	}

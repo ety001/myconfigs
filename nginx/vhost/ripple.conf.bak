@@ -1,0 +1,9 @@
+server
+	{
+		listen 80;
+		server_name ripple.dev;
+		index index.html;
+		root  /Users/ety001/wwwroot/ripple-bot/dist;
+
+        access_log off;
+	}

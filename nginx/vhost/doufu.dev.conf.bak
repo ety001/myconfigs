@@ -1,0 +1,37 @@
+server
+	{
+		listen 80;
+		server_name doufu.dev;
+		index index.html index.htm index.php default.html default.htm default.php;
+		root  /Users/ety001/wwwroot/beans/source;
+
+		#error_page   404   /404.html;
+		location ~ [^/]\.php(/|$)
+			{
+				# comment try_files $uri =404; to enable pathinfo
+				try_files $uri =404;
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index index.php;
+				include fastcgi.conf;
+                fastcgi_param TOFU_HOST localhost;
+                fastcgi_param TOFU_USER root;
+                fastcgi_param TOFU_PASS 123456;
+                fastcgi_param TOFU_DB beans;
+                fastcgi_param TOFU_PREFIX tofu_;
+                fastcgi_param TOFU_WB_AKEY 3332730752;
+                fastcgi_param TOFU_WB_SKEY 2e5bcd5bdb84232b866588d52c266db0;
+				#include pathinfo.conf;
+			}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+			{
+				expires      30d;
+			}
+
+		location ~ .*\.(js|css)?$
+			{
+				expires      12h;
+			}
+
+		access_log off;
+	}

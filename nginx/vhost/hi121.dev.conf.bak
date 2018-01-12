@@ -1,0 +1,33 @@
+server
+	{
+		listen 80;
+		server_name hi121.dev beta.hi121.net lkwkaxi5tk.proxy.qqbrowser.cc ety001.vicp.net;
+		index index.html index.htm index.php default.html default.htm default.php;
+		root  /Users/ety001/wwwroot/hi121/public;
+
+		include none.conf;
+        location / {
+            try_files $uri $uri/ /index.php$is_args$query_string;
+        }
+             
+		location ~ [^/]\.php(/|$)
+			{
+				try_files $uri =404;
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+				include fastcgi.conf;
+			}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+			{
+				expires      30d;
+			}
+
+		location ~ .*\.(js|css)?$
+			{
+				expires      12h;
+			}
+
+		access_log off;
+	}

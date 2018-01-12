@@ -1,0 +1,50 @@
+server
+	{
+		listen 80;
+		server_name ss.dev;
+		index index.html index.htm index.php default.html default.htm default.php;
+		root  /Users/ety001/wwwroot/ss-service/www;
+
+        location / {
+            if ( !-e $request_filename ) {
+                rewrite (.*) /index.php?$1 last;
+            }
+        }
+
+		location ~ index\.php(/|$)
+			{
+				# comment try_files $uri =404; to enable pathinfo
+                try_files $uri =404;
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index index.php;
+				include fastcgi.conf;
+fastcgi_param SS_HOST localhost;
+fastcgi_param SS_PORT 3306;
+fastcgi_param SS_USER root;
+                fastcgi_param SS_PASS 123456;
+                fastcgi_param SS_DB ssservice;
+                fastcgi_param SS_PREFIX ss_;
+                fastcgi_param SS_MODE debug;
+                fastcgi_param SS_EMAIL_PASS e94b1782fad0817f934aa1f62d14d7ae;
+                fastcgi_param SS_APIKEY PUphS8z9j1wak3TD;
+                fastcgi_param SS_LIMIT 50;
+                fastcgi_param SELLER_EMAIL mypay@domyself.me;
+                fastcgi_param PARTNER 2088102069363130;
+                fastcgi_param PARTNER_KEY micvw2ceh7dbcf5blg13ral3dl4gml8r;
+                fastcgi_param WEIDIAN_KEY 644080;
+                fastcgi_param WEIDIAN_SECRET 7558cab7aaa0a954ee72544aa09322bd;
+			}
+
+#	location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+#			{
+#				expires      30d;
+#			}
+#
+#		location ~ .*\.(js|css)?$
+#			{
+#				expires      12h;
+#			}
+
+#access_log /tmp/access_verycine.log test;
+access_log off;
+	}

@@ -1,0 +1,43 @@
+log_format test '$uri--$request_filename-$fastcgi_script_name --';
+server
+	{
+		listen 80;
+		server_name gfw.dev;
+		index index.html index.htm index.php default.html default.htm default.php;
+		root  /Users/ety001/wwwroot/gfw/www;
+
+        location / {
+            if ( !-e $request_filename ) {
+                rewrite (.*) /index.php?$1 last;
+            }
+        }
+
+		location ~ index\.php(/|$)
+			{
+				# comment try_files $uri =404; to enable pathinfo
+                try_files $uri =404;
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index index.php;
+				include fastcgi.conf;
+fastcgi_param GFW_HOST localhost;
+fastcgi_param GFW_PORT 3306;
+fastcgi_param GFW_USER root;
+                fastcgi_param GFW_PASS 123456;
+                fastcgi_param GFW_DB gfw;
+                fastcgi_param GFW_PREFIX gfw_;
+                fastcgi_param GFW_MODE debug;
+			}
+
+#	location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+#			{
+#				expires      30d;
+#			}
+#
+#		location ~ .*\.(js|css)?$
+#			{
+#				expires      12h;
+#			}
+
+#access_log /tmp/access_verycine.log test;
+access_log off;
+	}
