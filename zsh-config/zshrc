@@ -96,6 +96,11 @@ export PATH=$HOME/.composer/vendor/bin:$PATH
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-json_s() {
-    echo "$1" | python -m json.tool
+js() {
+    read json
+    echo "${json}" | python -m json.tool
+}
+bts() {
+    echo $1
+    curl --silent --data "$1" https://bts.to0l.cn:4443/ws | python -m json.tool
 }
