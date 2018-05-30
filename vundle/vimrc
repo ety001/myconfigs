@@ -251,8 +251,26 @@ set foldmethod=syntax
 " 启动 vim 时关闭折叠代码
 set nofoldenable
 
-nmap py :call RunPython() <CR>
-func! RunPython()
+nmap rrr :call CompileRunGcc()<CR>
+func! CompileRunGcc()
     exec "w"
-    exec "!python3 %"
+    if &filetype == 'c'
+        exec '!g++ % -o %<'
+        exec '!time ./%<'
+    elseif &filetype == 'cpp'
+        exec '!g++ % -o %<'
+        exec '!time ./%<'
+    elseif &filetype == 'python'
+        exec '!time python3 %'
+    elseif &filetype == 'sh'
+        :!time bash %
+    endif
 endfunc
+
+set foldenable              " 开始折叠
+set foldmethod=syntax       " 设置语法折叠
+set foldcolumn=0            " 设置折叠区域的宽度
+setlocal foldlevel=1        " 设置折叠层数为
+" set foldclose=all           " 设置为自动关闭折叠
+" nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
+                            " 用空格键来开关折叠
