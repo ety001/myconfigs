@@ -250,3 +250,9 @@ set foldmethod=indent
 set foldmethod=syntax
 " 启动 vim 时关闭折叠代码
 set nofoldenable
+
+nmap py :call RunPython() <CR>
+func! RunPython()
+    exec "w"
+    exec "!python3 %"
+endfunc
