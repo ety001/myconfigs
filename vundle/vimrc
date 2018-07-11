@@ -266,3 +266,5 @@ func! CompileRunGcc()
         :!time bash %
     endif
 endfunc
+
+set guifont=Monaco:h18
