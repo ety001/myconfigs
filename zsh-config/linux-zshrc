@@ -106,6 +106,7 @@ export PATH=${PATH}:${ANDROID_HOME}:${ANDROID_HOME}/platform-tools:${ANDROID_HOM
 export PATH=${PATH}:/home/ety001/.local/bin
 export PATH=${PATH}:/home/ety001/.gem/ruby/2.6.0/bin
 export PATH=${PATH}:/home/ety001/Software/flutter/bin
+export PATH=${PATH}:$HOME/.cargo/bin
 
 # added by travis gem
 [ -f /home/ety001/.travis/travis.sh ] && source /home/ety001/.travis/travis.sh
