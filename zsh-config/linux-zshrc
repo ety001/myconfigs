@@ -110,3 +110,5 @@ export PATH=${PATH}:$HOME/.cargo/bin
 
 # added by travis gem
 [ -f /home/ety001/.travis/travis.sh ] && source /home/ety001/.travis/travis.sh
+
+alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
