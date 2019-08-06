@@ -134,7 +134,6 @@ LuciusBlack
 nnoremap <leader>h :GundoToggle<CR>
 
 set guifont=Monaco:h10       " 字体 && 字号
-set expandtab                " 设置tab键换空格
 set tabstop=4                " 设置tab键的宽度
 set shiftwidth=4             " 换行时行间交错使用4个空格
 set autoindent               " 自动对齐
@@ -159,8 +158,6 @@ set hidden                   " 允许在有未保存的修改时切换缓冲区
 set timeout timeoutlen=100 ttimeoutlen=100 " 按键延时
 
 
-syntax enable                " 打开语法高亮
-syntax on                    " 开启文件类型侦测
 filetype indent on           " 针对不同的文件类型采用不同的缩进格式
 filetype plugin on           " 针对不同的文件类型加载对应的插件
 filetype plugin indent on    " 启用自动补全
@@ -169,11 +166,10 @@ set writebackup              " 设置无备份文件
 set nobackup
 set autochdir                " 设定文件浏览器目录为当前目录
 set nowrap                  " 设置不自动换行
-set foldmethod=syntax        " 选择代码折叠类型
 set foldlevel=100            " 禁止自动折叠
 
 set laststatus=2             " 开启状态栏信息
-set cmdheight=2              " 命令行的高度，默认为1，这里设为2
+set cmdheight=1             " 命令行的高度，默认为1，这里设为2
 
 " 在缩进和遇到 Tab 键时使用空格替代
 set expandtab
@@ -184,10 +180,10 @@ au FileType java,python,php setl shiftwidth=4
 au FileType java,python,php setl tabstop=4
 
 " 自动对齐
-set ai
+" set ai
 set si  
 set smarttab
-set wrap
+" set wrap
 set lbr
 set tw=0
 set foldmethod=syntax
@@ -206,9 +202,6 @@ set history=400
 set autoread
 " set 7 lines to the curors - when moving vertical..
 set so=7
-
-" The commandbar is 1 high
-set cmdheight=1
 
 " Change buffer - without saving
 set hid
@@ -230,7 +223,7 @@ set mat=4
 
 set noswapfile
 " 禁止光标闪烁
-set gcr=a:block-blinkon0
+" set gcr=a:block-blinkon0
 
 " 高亮显示当前行/列
 set cursorline
@@ -244,11 +237,6 @@ syntax enable
 " 允许用指定语法高亮配色方案替换默认方案
 syntax on
 
-" 自适应不同语言的智能缩进
-filetype indent on
-
-" 将制表符扩展为空格
-set expandtab
 
 " 基于缩进或语法进行代码折叠
 set foldmethod=indent
@@ -271,8 +259,6 @@ func! CompileRunGcc()
         :!time bash %
     endif
 endfunc
-
-set guifont=Monaco:h18
 
 " ctrlp
 let g:ctrlp_map = '<leader>p'
