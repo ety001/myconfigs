@@ -53,6 +53,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+let g:mapleader = ","
+
 " 设置NerdTree
 " map <F3> :NERDTreeMirror<CR>
 map <C-n> :NERDTreeToggle<CR>
@@ -101,7 +103,7 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 let g:miniBufExplMoreThanOne=0
 " taglist
-let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
+let Tlist_Ctags_Cmd = '/usr/bin/ctags'
 let Tlist_Show_One_File=1
 let Tlist_Exist_OnlyWindow=1 " 如果 taglist 窗口是最后一个窗口，则退出 vim
 let Tlist_File_Fold_Auto_Close=1 " 让当前不被编辑的文件的方法列表自动折叠起来 
@@ -205,8 +207,8 @@ set autoread
 " set 7 lines to the curors - when moving vertical..
 set so=7
 
-" The commandbar is 2 high
-set cmdheight=2
+" The commandbar is 1 high
+set cmdheight=1
 
 " Change buffer - without saving
 set hid
@@ -287,4 +289,6 @@ let g:ctrlp_match_window_reversed=0
 let g:ctrlp_mruf_max=500
 let g:ctrlp_follow_symlinks=1
 
-set pastetoggle=<F2>
+nmap <leader>v "+gp
+nmap <leader>c "+y
+
