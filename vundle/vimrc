@@ -154,6 +154,7 @@ set vb t_vb=                 " 关闭提示音
 hi CursorLine  cterm=NONE   ctermbg=darkred ctermfg=white
 hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white
 set hidden                   " 允许在有未保存的修改时切换缓冲区
+set timeout timeoutlen=100 ttimeoutlen=100 " 按键延时
 
 
 syntax enable                " 打开语法高亮
