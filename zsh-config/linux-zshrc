@@ -107,8 +107,18 @@ export PATH=${PATH}:/home/ety001/.local/bin
 export PATH=${PATH}:/home/ety001/.gem/ruby/2.6.0/bin
 export PATH=${PATH}:/home/ety001/Software/flutter/bin
 export PATH=${PATH}:$HOME/.cargo/bin
+export PATH=${PATH}:/snap/bin
+export PATH=${PATH}:$HOME/go/bin
+
+# rust mirrors
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 
 # added by travis gem
 [ -f /home/ety001/.travis/travis.sh ] && source /home/ety001/.travis/travis.sh
 
 alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /home/ety001/Workspace/beet/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/ety001/Workspace/beet/node_modules/tabtab/.completions/electron-forge.zsh
