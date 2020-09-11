@@ -36,6 +36,11 @@ Plugin 'editorconfig/editorconfig-vim'
 " Vim vue
 Plugin 'posva/vim-vue'
 
+" C++ YouCompleteMe
+Plugin 'ycm-core/YouCompleteMe'
+" autoformat
+Plugin 'Chiel92/vim-autoformat'
+
 Bundle 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
