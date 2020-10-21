@@ -123,3 +123,6 @@ alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
 # tabtab source for electron-forge package
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
 [[ -f /home/ety001/Workspace/beet/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/ety001/Workspace/beet/node_modules/tabtab/.completions/electron-forge.zsh
+
+# Todoist
+source "/usr/share/todoist/todoist_functions.sh"
