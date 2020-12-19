@@ -9,7 +9,7 @@
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="amuse"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="crunch"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -125,4 +125,4 @@ alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
 [[ -f /home/ety001/Workspace/beet/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /home/ety001/Workspace/beet/node_modules/tabtab/.completions/electron-forge.zsh
 
 # Todoist
-source "/usr/share/todoist/todoist_functions.sh"
+#source "/usr/share/todoist/todoist_functions.sh"
