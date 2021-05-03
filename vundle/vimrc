@@ -39,6 +39,8 @@ Plugin 'posva/vim-vue'
 " autoformat
 Plugin 'Chiel92/vim-autoformat'
 
+Plugin 'fatih/vim-go'
+
 Bundle 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
