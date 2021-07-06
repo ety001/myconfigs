@@ -118,8 +118,8 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 # added by travis gem
 [ -f /home/ety001/.travis/travis.sh ] && source /home/ety001/.travis/travis.sh
 
-alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
-. "/home/ety001/.acme.sh/acme.sh.env"
+#alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
+#. "/home/ety001/.acme.sh/acme.sh.env"
 
 # tabtab source for electron-forge package
 # uninstall by removing these lines or running `tabtab uninstall electron-forge`
@@ -127,7 +127,7 @@ alias aschcc='asch-cli -M -H 74.207.246.41 -P 8192'
 
 # Todoist
 #source "/usr/share/todoist/todoist_functions.sh"
-export PATH=$PATH:/usr/local/go/bin
+#export PATH=$PATH:/usr/local/go/bin
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
