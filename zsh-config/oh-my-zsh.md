@@ -7,3 +7,8 @@
 ```
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" 
 ```
+
+ln
+```
+ln -s myconfigs/zsh-config/linux-zshrc ~/.zshrc
+```
