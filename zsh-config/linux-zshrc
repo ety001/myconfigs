@@ -99,6 +99,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias v2ray-restart="/data/server-conf/v2ray-1hour/restart-client.sh"
+alias v2ray-stop="/data/server-conf/v2ray-1hour/stop.sh"
+alias v2ray-start="/data/server-conf/v2ray-1hour/run-client.sh"
+alias cf-up="/data/server-conf/cf-new/run.sh"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -106,9 +111,9 @@ export NVM_DIR="$HOME/.nvm"
 export ANDROID_HOME=/home/ety001/Android/Sdk
 export PATH=${PATH}:${ANDROID_HOME}:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin
 export PATH=${PATH}:/home/ety001/.local/bin
-export PATH=${PATH}:/home/ety001/.gem/ruby/2.6.0/bin
-export PATH=${PATH}:/home/ety001/Software/flutter/bin
-export PATH=${PATH}:$HOME/.cargo/bin
+#export PATH=${PATH}:/home/ety001/.gem/ruby/2.6.0/bin
+#export PATH=${PATH}:/home/ety001/Software/flutter/bin
+#export PATH=${PATH}:$HOME/.cargo/bin
 export PATH=${PATH}:/snap/bin
 export PATH=${PATH}:$HOME/go/bin
 
@@ -129,9 +134,6 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 # Todoist
 #source "/usr/share/todoist/todoist_functions.sh"
 #export PATH=$PATH:/usr/local/go/bin
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export EDITOR=/usr/bin/vim
 
