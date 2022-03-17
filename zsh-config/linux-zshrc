@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias v2ray-restart="/data/server-conf/v2ray-1hour/restart-client.sh"
 alias v2ray-stop="/data/server-conf/v2ray-1hour/stop.sh"
 alias v2ray-start="/data/server-conf/v2ray-1hour/run-client.sh"
+alias v2ray-cd="cd /data/server-conf/v2ray-1hour"
 alias cf-up="/data/server-conf/cf-new/run.sh"
 
 export NVM_DIR="$HOME/.nvm"
