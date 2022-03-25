@@ -1,0 +1,4 @@
+```
+systemctl enable smb
+systemctl start smb
+```

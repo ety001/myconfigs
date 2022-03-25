@@ -1,0 +1,103 @@
+<html>
+<head>
+    <title>BTS</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <style>
+        .row {
+            margin: 10px 0;
+        }
+        .row input {
+            width: 600px;
+        }
+        .row button {
+            margin: 0 10px;
+        }
+        #controller {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <div class="row">
+        API: <input id="api_ws" type="text" value="wss://api.61bts.com" />
+    </div>
+    <div class="row">
+        Witness Wif: <input id="wif" type="text" value="" />
+    </div>
+    <div class="row">
+        receive account 1 (70%): <input id="acc1" type="text" value="gbac" />
+    </div>
+    <div class="row">
+        receive account 2 (30%): <input id="acc2" type="text" value="liuye" />
+    </div>
+    <div class="row">
+        Will receive (BTS): <input id="witness_benifit" type="text" value="" />
+    </div>
+    <div class="row" id="connecting">
+        connecting...
+    </div>
+    <div class="row" id="controller">
+        <button id="get_witness_info">Get Witness Info</button>
+        <button id="claim">Claim</button>
+        <button id="transfer">Transfer</button>
+    </div>
+</div>
+
+<script src="./bitsharesjs.min.js"></script>
+<script>
+    let id = 1;
+    const callback = [];
+
+    $(function(){
+        // Create WebSocket connection.
+        const api = $('#api_ws').val();
+        const socket = new WebSocket(api);
+        // Connection opened
+        socket.addEventListener('open', function (event) {
+            console.log('open: ', event);
+            $('#controller').show();
+            $('#connecting').hide();
+        });
+
+        // Listen for messages
+        socket.addEventListener('message', function (event) {
+            const data = JSON.parse(event.data);
+            console.log('Message from server ', data);
+            if (data.id) {
+                callback[data.id](data.result);
+            }
+        });
+
+        $('#get_witness_info').click(function(){
+            const data = {
+                "id":id,
+                "method":"call",
+                "params":[
+                    0,
+                    "get_vesting_balances",
+                    ["gbac-ety001"]
+                ]
+            }
+            callback[id++] = function(res) {
+                if (res.length) {
+                    res.forEach(r => {
+                        if (r.balance.asset_id === '1.3.0') {
+                            $('#witness_benifit').val(parseInt(r.balance.amount/1e5, 10));
+                        }
+                    });
+                }
+            }
+            socket.send(JSON.stringify(data));
+        });
+        $('#claim').click(function(){
+
+        });
+        $('#transfer').click(function(){
+
+        });
+    });
+</script>
+</body>
+</html>
