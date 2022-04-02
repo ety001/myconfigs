@@ -138,3 +138,9 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 
 export EDITOR=/usr/bin/vim
 
+export GOPATH="$HOME/go"
+export GO111MODULE=on
+export PATH="$PATH:$HOME/.local/bin"
+export PATH=$PATH:/usr/local/go/bin
+alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
+
