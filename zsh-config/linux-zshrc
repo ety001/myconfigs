@@ -143,4 +143,6 @@ export GO111MODULE=on
 export PATH="$PATH:$HOME/.local/bin"
 export PATH=$PATH:/usr/local/go/bin
 #alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
+#
+#___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
 
