@@ -283,6 +283,7 @@ nmap <leader>c "+y
 
 " copy to system clipboard in visual model
 vnoremap <C-y> "+y
+
 " paste from system clipboard in normal model
 nnoremap <C-p> "*p
 
