@@ -198,7 +198,7 @@ set fenc=utf-8
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,gbk,cp936,latin-1
 " 解决consle输出乱码
-language messages zh_CN.utf-8
+"language messages zh_CN.UTF-8
 set helplang=cn
 
 " Sets how many lines of history VIM har to remember
@@ -282,4 +282,10 @@ let g:ctrlp_follow_symlinks=1
 
 nmap <leader>v "+gp
 nmap <leader>c "+y
+
+" copy to system clipboard in visual model
+vnoremap <C-y> "+y
+
+" paste from system clipboard in normal model
+nnoremap <C-p> "*p
 

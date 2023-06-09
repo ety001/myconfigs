@@ -10,5 +10,5 @@
 
 ln
 ```
-ln -s myconfigs/zsh-config/linux-zshrc ~/.zshrc
+ln -s /data/myconfigs/zsh-config/linux-zshrc ~/.zshrc
 ```
