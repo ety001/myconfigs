@@ -140,7 +140,13 @@ export EDITOR=/usr/bin/vim
 
 export GOPATH="$HOME/go"
 alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
-export GOROOT="/usr/lib/go"
+
+hostname=`cat /proc/sys/kernel/hostname`
+if [[ "$hostname" = "ssdnodes-work" ]]; then
+    export GOROOT="/usr/local/go"
+else
+    export GOROOT="/usr/lib/go"
+fi
 export GO111MODULE=on
 export PATH="$PATH:$HOME/.local/bin"
 export PATH=$PATH:/usr/local/go/bin
