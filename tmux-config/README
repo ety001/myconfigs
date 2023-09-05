@@ -1,0 +1,11 @@
+# Install xsel
+
+```
+yay -S xsel
+```
+
+# Add config
+
+```
+bind -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "xsel -i --clipboard"
+```
