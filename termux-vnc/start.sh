@@ -1,6 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-set -xe
 
 VROOT=~/..
 VTMP=$VROOT/usr/tmp
