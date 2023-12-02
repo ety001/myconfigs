@@ -1,0 +1,3 @@
+```
+ln -s /data/myconfigs/screen-config/screenrc ~/.screenrc
+```
