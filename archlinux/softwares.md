@@ -1,3 +1,3 @@
 ```
-sudo pacman -S filezilla
+sudo pacman -S filezilla gimp mpv smplayer obs-studio
 ```
