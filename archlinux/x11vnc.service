@@ -1,0 +1,9 @@
+[Unit]
+Description=x11vnc
+
+[Service]
+ExecStart=/usr/bin/x11vnc -nomodtweak -auth /home/ety001/.Xauthority -rfbauth /home/ety001/.vnc/passwd -rfbport 5901 -no6 -display :0
+Restart=always
+
+[Install]
+WantedBy=default.target
