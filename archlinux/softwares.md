@@ -6,7 +6,8 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     ttf-dejavu-nerd ttf-dejavu noto-fonts noto-fonts-cjk noto-fonts-emoji \
     noto-fonts-extra font-manager  pulseaudio pulseaudio-alsa \
     pulseaudio-bluetooth bluez blueman pavucontrol docker docker-compose \
-    docker-buildx firefox firefox-i18n-zh-cn axel
+    docker-buildx firefox firefox-i18n-zh-cn axel libcanberra flameshot \
+    alacarte remmina freerdp spice-gtk gtk-vnc
 
 sudo gpasswd -a ety001 cups
 
@@ -38,4 +39,5 @@ XMODIFIERS=@im=fcitx
 sudo pacman -S gnome-keyring xfce4-goodies pavucontrol
 ```
 
+`xfce4-popup-whiskermenu` 弹出 whiskermenu 的快捷键。
 
