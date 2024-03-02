@@ -16,5 +16,26 @@ sudo systemctl start cups
 sudo gpasswd -a ety001 audio
 
 sudo gpasswd -a ety001 docker
+
+sudo pacman -S fcitx5 fcitx5-chinese-addons \
+    fcitx5-configtool fcitx5-gtk fcitx5-nord \
+    fcitx5-qt ssfconv
 ```
+
+```
+mkdir -p ~/.config/autostart/
+cp /etc/xdg/autostart/org.fcitx.Fcitx5.desktop ~/.config/autostart/
+```
+
+/etc/environment
+```
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+```
+
+```
+sudo pacman -S gnome-keyring
+```
+
 
