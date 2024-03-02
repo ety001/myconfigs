@@ -5,7 +5,7 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     ttf-ubuntu-mono-nerd ttf-ubuntu-nerd ttf-hack-nerd ttf-droid \
     ttf-dejavu-nerd ttf-dejavu noto-fonts noto-fonts-cjk noto-fonts-emoji \
     noto-fonts-extra font-manager  pulseaudio pulseaudio-alsa \
-    pulseaudio-bluetooth bluetooth pavucontrol docker docker-compose \
+    pulseaudio-bluetooth bluez blueman pavucontrol docker docker-compose \
     docker-buildx firefox firefox-i18n-zh-cn axel
 
 sudo gpasswd -a ety001 cups
@@ -35,7 +35,7 @@ XMODIFIERS=@im=fcitx
 ```
 
 ```
-sudo pacman -S gnome-keyring
+sudo pacman -S gnome-keyring xfce4-goodies pavucontrol
 ```
 
 
