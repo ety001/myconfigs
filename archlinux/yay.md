@@ -6,5 +6,5 @@ makepkg -si
 ```
 
 ```
-yay -S google-chrome wps-office-cn ttf-wps-fonts
+yay -S google-chrome wps-office-cn ttf-wps-fonts visual-studio-code-bin
 ```

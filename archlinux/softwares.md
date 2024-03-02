@@ -6,7 +6,7 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     ttf-dejavu-nerd ttf-dejavu noto-fonts noto-fonts-cjk noto-fonts-emoji \
     noto-fonts-extra font-manager  pulseaudio pulseaudio-alsa \
     pulseaudio-bluetooth bluetooth pavucontrol docker docker-compose \
-    docker-buildx firefox firefox-i18n-zh-cn
+    docker-buildx firefox firefox-i18n-zh-cn axel
 
 sudo gpasswd -a ety001 cups
 
