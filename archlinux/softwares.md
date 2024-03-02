@@ -7,7 +7,8 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     noto-fonts-extra font-manager  pulseaudio pulseaudio-alsa \
     pulseaudio-bluetooth bluez blueman pavucontrol docker docker-compose \
     docker-buildx firefox firefox-i18n-zh-cn axel libcanberra flameshot \
-    alacarte remmina freerdp spice-gtk gtk-vnc
+    alacarte remmina freerdp spice-gtk gtk-vnc thunderbird systray-x-common \
+    telegram-desktop
 
 sudo gpasswd -a ety001 cups
 
