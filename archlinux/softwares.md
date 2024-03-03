@@ -42,3 +42,10 @@ sudo pacman -S gnome-keyring xfce4-goodies pavucontrol
 
 `xfce4-popup-whiskermenu` 弹出 whiskermenu 的快捷键。
 
+```
+sudo pacman -S virtualbox virtualbox-host-modules-arch virtualbox-guest-iso
+sudo gpasswd -a ety001 vboxusers
+sudo modprobe vboxdrv vboxnetadp vboxnetflt
+yay -S virtualbox-ext-oracle
+```
+
