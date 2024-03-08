@@ -49,4 +49,6 @@ sudo modprobe vboxdrv vboxnetadp vboxnetflt
 yay -S virtualbox-ext-oracle
 ```
 
+`/usr/bin/flameshot gui` 截图快捷键配置
+
 
