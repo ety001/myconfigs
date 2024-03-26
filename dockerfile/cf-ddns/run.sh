@@ -1,5 +1,4 @@
 #!/bin/ash
-set -xe
 FILE=/tmp/ip.txt
 
 if [ -z ${SLEEP_TIME} ]; then
