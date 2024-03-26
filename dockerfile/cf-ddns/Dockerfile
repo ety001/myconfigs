@@ -11,3 +11,4 @@ COPY ./run.sh /usr/bin/run.sh
 RUN apk --no-cache add curl && \
     chmod +x /usr/bin/cf-ddns && \
     chmod +x /usr/bin/run.sh
+CMD ["/usr/bin/run.sh"]
