@@ -7,7 +7,7 @@ if [ -z ${SLEEP_TIME} ]; then
 fi
 
 while true; do
-    t=$(% date "+%Y-%m-%d %H:%M:%S")
+    t=$(date "+%Y-%m-%d %H:%M:%S")
     echo "Start at [${t}]"
     lastip=""
     if [ -f ${FILE} ]; then
