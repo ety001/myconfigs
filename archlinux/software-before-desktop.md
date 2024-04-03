@@ -1,4 +1,4 @@
 ```
-pacman -S openssh zsh git htop
+pacman -S openssh zsh git htop corkscrew
 
 ```
