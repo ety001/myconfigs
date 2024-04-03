@@ -1,7 +1,7 @@
 # Xorg
 
 ```
-pacman -S xorg-server
+pacman -S xorg-server xorg-apps
 ```
 
 # Video Card Driver
@@ -13,7 +13,7 @@ pacman -S nvidia nvidia-settings nvidia-utils
 # XFCE4
 
 ```
-pacman -S xfce4
+pacman -S xfce4 xfce4-goodies
 ```
 
 
@@ -27,7 +27,7 @@ gpasswd -a ety001 lightdm
 ```
 [Seat:*]
 ...
-greeter-session=lightdm-yourgreeter-greeter
+greeter-session=lightdm-gtk-greeter
 autologin-user=ety001
 ...
 ```
