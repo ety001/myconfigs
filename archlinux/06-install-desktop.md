@@ -20,8 +20,8 @@ pacman -S xfce4
 # LightDM
 
 ```
-pacman -S lightdm
-gpasswd -a ety001 lightdm lightdm-gtk-greeter
+pacman -S lightdm lightdm-gtk-greeter
+gpasswd -a ety001 lightdm
 ```
 
 ```
