@@ -1,3 +1,0 @@
-```
-/etc/xdg/reflector/reflector.conf
-```
