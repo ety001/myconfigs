@@ -38,4 +38,11 @@ gpasswd -a ety001 autologin
 systemctl enable lightdm
 ```
 
+# Language of XFCE4
 
+`/var/lib/AccountsService/users/$USER`
+
+```
+[User]
+Language=zh_CN.UTF-8
+```
