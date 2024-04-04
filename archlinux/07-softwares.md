@@ -37,7 +37,7 @@ XMODIFIERS=@im=fcitx
 ```
 
 ```
-sudo pacman -S gnome-keyring xfce4-goodies pavucontrol
+sudo pacman -S gnome-keyring pavucontrol
 ```
 
 `xfce4-popup-whiskermenu` 弹出 whiskermenu 的快捷键。
