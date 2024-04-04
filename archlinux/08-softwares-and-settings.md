@@ -49,6 +49,22 @@ sudo modprobe vboxdrv vboxnetadp vboxnetflt
 yay -S virtualbox-ext-oracle
 ```
 
+```
+yay -S google-chrome wps-office-cn ttf-wps-fonts visual-studio-code-bin
+```
+
 `/usr/bin/flameshot gui` 截图快捷键配置
 
 
+# Bluetooth
+
+```
+bluetoothctl
+
+scan on
+
+pair xx:xx:xx
+
+connect xx:xx:xx
+
+```
