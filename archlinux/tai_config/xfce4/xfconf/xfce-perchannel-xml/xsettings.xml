@@ -3,7 +3,7 @@
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
     <property name="ThemeName" type="string" value="Adwaita-dark"/>
-    <property name="IconThemeName" type="string" value="Tela-blue-dark"/>
+    <property name="IconThemeName" type="string" value="elementary"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -14,7 +14,7 @@
     <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="DPI" type="empty"/>
+    <property name="DPI" type="int" value="86"/>
     <property name="Antialias" type="empty"/>
     <property name="Hinting" type="empty"/>
     <property name="HintStyle" type="empty"/>
@@ -23,8 +23,8 @@
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="文泉驿微米黑 11"/>
-    <property name="MonospaceFontName" type="string" value="文泉驿等宽正黑 Medium 11"/>
+    <property name="FontName" type="string" value="WenQuanYi Micro Hei 11"/>
+    <property name="MonospaceFontName" type="string" value="WenQuanYi Micro Hei Mono 11"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
     <property name="ToolbarStyle" type="empty"/>
@@ -43,5 +43,6 @@
   </property>
   <property name="Xfce" type="empty">
     <property name="SyncThemes" type="bool" value="true"/>
+    <property name="LastCustomDPI" type="int" value="86"/>
   </property>
 </channel>
