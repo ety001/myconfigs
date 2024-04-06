@@ -59,3 +59,11 @@ fi
 ```
 chmod +x ~/.i18n ~/.config/xfce4/xinitrc
 ```
+
+`~/.config/locale.conf`
+```
+LANG=zh_CN.UTF-8
+LANGUAGE=zh_CN.UTF-8
+```
+
+
