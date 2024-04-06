@@ -40,9 +40,22 @@ systemctl enable lightdm
 
 # Language of XFCE4
 
-`/var/lib/AccountsService/users/$USER`
+`~/.i18n`
+```
+export LANGUAGE=zh_CN.utf8
+export LANG=zh_CN.utf8
+export LC_ALL=en_US.utf8
+```
+
+`~/.config/xfce4/xinitrc`
+```
+#!/bin/sh
+if [ -f "$HOME/.i18n" ]; then
+    . "$HOME/.i18n"
+fi
+. /etc/xdg/xfce4/xinitrc
+```
 
 ```
-[User]
-Language=zh_CN.UTF-8
+chmod +x ~/.i18n ~/.config/xfce4/xinitrc
 ```
