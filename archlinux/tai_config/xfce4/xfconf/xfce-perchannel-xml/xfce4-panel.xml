@@ -23,7 +23,7 @@
         <value type="int" value="18"/>
         <value type="int" value="31"/>
         <value type="int" value="25"/>
-        <value type="int" value="9"/>
+        <value type="int" value="20"/>
         <value type="int" value="27"/>
         <value type="int" value="1"/>
         <value type="int" value="16"/>
@@ -179,10 +179,11 @@
       <property name="items" type="array">
       </property>
     </property>
-    <property name="plugin-9" type="string" value="launcher">
+    <property name="plugin-15" type="string" value="applicationsmenu"/>
+    <property name="plugin-20" type="string" value="launcher">
       <property name="items" type="array">
+        <value type="string" value="17124228681.desktop"/>
       </property>
     </property>
-    <property name="plugin-15" type="string" value="applicationsmenu"/>
   </property>
 </channel>
