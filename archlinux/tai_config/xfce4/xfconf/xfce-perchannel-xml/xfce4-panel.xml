@@ -13,7 +13,6 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="15"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -33,7 +32,6 @@
       <property name="output-name" type="string" value="HDMI-0"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
         <value type="int" value="26"/>
         <value type="int" value="28"/>
         <value type="int" value="6"/>
@@ -50,7 +48,6 @@
         <value type="int" value="14"/>
         <value type="int" value="17"/>
         <value type="int" value="19"/>
-        <value type="int" value="20"/>
         <value type="int" value="21"/>
         <value type="int" value="22"/>
         <value type="int" value="23"/>
@@ -89,70 +86,6 @@
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-7" type="string" value="whiskermenu">
-      <property name="launcher-icon-size" type="int" value="3"/>
-      <property name="category-icon-size" type="int" value="2"/>
-      <property name="view-mode" type="int" value="0"/>
-      <property name="favorites-in-recent" type="bool" value="true"/>
-      <property name="position-categories-alternate" type="bool" value="true"/>
-      <property name="menu-width" type="int" value="507"/>
-      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
-      <property name="favorites" type="array">
-        <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="xfce4-terminal-emulator.desktop"/>
-        <value type="string" value="wps-office-prometheus.desktop"/>
-        <value type="string" value="qq.desktop"/>
-        <value type="string" value="org.remmina.Remmina.desktop"/>
-        <value type="string" value="torbrowser.desktop"/>
-        <value type="string" value="filezilla.desktop"/>
-        <value type="string" value="org.kde.kdenlive.desktop"/>
-        <value type="string" value="smplayer.desktop"/>
-        <value type="string" value="tradingview_tradingview.desktop"/>
-        <value type="string" value="vlc.desktop"/>
-      </property>
-      <property name="recent" type="array">
-        <value type="string" value="org.fcitx.Fcitx5.desktop"/>
-        <value type="string" value="wps-office-prometheus.desktop"/>
-        <value type="string" value="vlc.desktop"/>
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="org.mozilla.Thunderbird.desktop"/>
-        <value type="string" value="another-redis-desktop-manager_another-redis-desktop-manager.desktop"/>
-        <value type="string" value="filezilla.desktop"/>
-        <value type="string" value="tradingview_tradingview.desktop"/>
-        <value type="string" value="org.remmina.Remmina.desktop"/>
-        <value type="string" value="smplayer.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-15" type="string" value="whiskermenu">
-      <property name="launcher-icon-size" type="int" value="3"/>
-      <property name="category-icon-size" type="int" value="2"/>
-      <property name="view-mode" type="int" value="0"/>
-      <property name="favorites-in-recent" type="bool" value="true"/>
-      <property name="position-categories-alternate" type="bool" value="true"/>
-      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
-      <property name="favorites" type="array">
-        <value type="string" value="xfce4-web-browser.desktop"/>
-        <value type="string" value="xfce4-mail-reader.desktop"/>
-        <value type="string" value="xfce4-file-manager.desktop"/>
-        <value type="string" value="org.remmina.Remmina.desktop"/>
-        <value type="string" value="com.authy.Authy.desktop"/>
-        <value type="string" value="qqmusic.desktop"/>
-        <value type="string" value="galculator.desktop"/>
-        <value type="string" value="smplayer.desktop"/>
-      </property>
-      <property name="recent" type="array">
-        <value type="string" value="wps-office-prometheus.desktop"/>
-        <value type="string" value="qqmusic.desktop"/>
-        <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="another-redis-desktop-manager_another-redis-desktop-manager.desktop"/>
-        <value type="string" value="org.fcitx.Fcitx5.desktop"/>
-        <value type="string" value="tradingview_tradingview.desktop"/>
-        <value type="string" value="org.remmina.Remmina.desktop"/>
-        <value type="string" value="com.authy.Authy.desktop"/>
-        <value type="string" value="smplayer.desktop"/>
-        <value type="string" value="galculator.desktop"/>
-      </property>
     </property>
     <property name="plugin-16" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -214,7 +147,6 @@
     <property name="plugin-24" type="string" value="separator"/>
     <property name="plugin-25" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787562111.desktop"/>
       </property>
     </property>
     <property name="plugin-26" type="string" value="separator">
@@ -225,47 +157,35 @@
     </property>
     <property name="plugin-28" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787566852.desktop"/>
       </property>
     </property>
     <property name="plugin-29" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787567053.desktop"/>
       </property>
     </property>
     <property name="plugin-30" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787570894.desktop"/>
       </property>
     </property>
     <property name="plugin-6" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787589131.desktop"/>
       </property>
     </property>
     <property name="plugin-8" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787655811.desktop"/>
       </property>
     </property>
     <property name="plugin-18" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787683552.desktop"/>
       </property>
     </property>
     <property name="plugin-31" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16787825793.desktop"/>
       </property>
     </property>
     <property name="plugin-9" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16802555771.desktop"/>
       </property>
-    </property>
-    <property name="plugin-20" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chrome;vlc"/>
     </property>
   </property>
 </channel>
