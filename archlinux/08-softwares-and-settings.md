@@ -9,7 +9,7 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     docker-buildx firefox firefox-i18n-zh-cn axel libcanberra flameshot \
     alacarte remmina freerdp spice-gtk gtk-vnc thunderbird systray-x-common \
     telegram-desktop galculator bluez-utils tmux xsel less usbutils \
-    xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin
+    xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin vlc
 
 sudo gpasswd -a ety001 cups
 
