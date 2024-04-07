@@ -14,11 +14,13 @@
       <property name="output-name" type="string" value="Primary"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="15"/>
+        <value type="int" value="33"/>
         <value type="int" value="26"/>
         <value type="int" value="28"/>
         <value type="int" value="31"/>
-        <value type="int" value="27"/>
+        <value type="int" value="35"/>
+        <value type="int" value="36"/>
+        <value type="int" value="37"/>
         <value type="int" value="1"/>
         <value type="int" value="16"/>
         <value type="int" value="14"/>
@@ -39,6 +41,7 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
+        <value type="int" value="34"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -101,6 +104,7 @@
     </property>
     <property name="plugin-19" type="string" value="systray">
       <property name="known-items" type="array">
+        <value type="string" value="SysTray-X"/>
         <value type="string" value="vlc"/>
         <value type="string" value="zero-trust-client"/>
         <value type="string" value="remmina-icon"/>
@@ -146,10 +150,6 @@
     <property name="plugin-26" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-27" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-15" type="string" value="applicationsmenu"/>
     <property name="plugin-28" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17124252172.desktop"/>
@@ -161,5 +161,37 @@
       </property>
     </property>
     <property name="plugin-32" type="string" value="separator"/>
+    <property name="plugin-33" type="string" value="whiskermenu">
+      <property name="button-icon" type="string" value="archlinux-logo"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="google-chrome.desktop"/>
+        <value type="string" value="filezilla.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="org.remmina.Remmina.desktop"/>
+        <value type="string" value="org.mozilla.Thunderbird.desktop"/>
+        <value type="string" value="galculator.desktop"/>
+      </property>
+      <property name="view-mode" type="int" value="0"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
+    </property>
+    <property name="plugin-34" type="string" value="whiskermenu"/>
+    <property name="plugin-35" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17124669084.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-36" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17124670165.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-37" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17124674366.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>
