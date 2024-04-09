@@ -16,12 +16,12 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="33"/>
         <value type="int" value="26"/>
-        <value type="int" value="28"/>
         <value type="int" value="31"/>
         <value type="int" value="35"/>
         <value type="int" value="36"/>
         <value type="int" value="37"/>
         <value type="int" value="40"/>
+        <value type="int" value="28"/>
         <value type="int" value="1"/>
         <value type="int" value="16"/>
         <value type="int" value="14"/>
