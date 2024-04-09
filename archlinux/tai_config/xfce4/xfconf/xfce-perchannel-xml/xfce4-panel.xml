@@ -181,6 +181,7 @@
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="vlc.desktop"/>
         <value type="string" value="code.desktop"/>
       </property>
     </property>
@@ -206,11 +207,11 @@
     </property>
     <property name="plugin-38" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chrome;firefox"/>
+      <property name="known-players" type="string" value="Chrome;vlc"/>
     </property>
     <property name="plugin-39" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chrome;firefox"/>
+      <property name="known-players" type="string" value="Chrome;vlc"/>
     </property>
     <property name="plugin-40" type="string" value="launcher">
       <property name="items" type="array">
