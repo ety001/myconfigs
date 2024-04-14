@@ -38,6 +38,19 @@ gpasswd -a ety001 autologin
 systemctl enable lightdm
 ```
 
+`/etc/pam.d/lightdm`
+```
+#%PAM-1.0
+auth        sufficient  pam_succeed_if.so user ingroup nopasswdlogin
+auth        include     system-login
+...
+```
+
+```
+groupadd -r nopasswdlogin
+gpasswd -a ety001 nopasswdlogin
+```
+
 # Language of XFCE4
 
 `~/.i18n`
