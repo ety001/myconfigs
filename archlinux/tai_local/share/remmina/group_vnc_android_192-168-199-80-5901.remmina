@@ -37,5 +37,5 @@ proxy=
 protocol=VNC
 username=
 group=
-window_height=807
-window_width=1070
+window_height=1009
+window_width=1337
