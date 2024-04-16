@@ -2,7 +2,7 @@
 Description=x11vnc
 
 [Service]
-ExecStart=/usr/bin/x11vnc -ncache -nomodtweak -auth /home/ety001/.Xauthority -rfbauth /home/ety001/.vnc/passwd -rfbport 5901 -no6 -display :0
+ExecStart=/usr/bin/x11vnc -ncache_cr  -nomodtweak -auth /home/ety001/.Xauthority -rfbauth /home/ety001/.vnc/passwd -rfbport 5901 -no6 -display :0 -o /var/log/x11vnc.log
 Restart=always
 
 [Install]
