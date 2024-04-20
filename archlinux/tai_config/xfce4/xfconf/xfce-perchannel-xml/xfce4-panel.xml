@@ -16,6 +16,8 @@
       <property name="plugin-ids" type="array">
         <value type="int" value="33"/>
         <value type="int" value="26"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
         <value type="int" value="31"/>
         <value type="int" value="35"/>
         <value type="int" value="36"/>
@@ -212,11 +214,11 @@
     </property>
     <property name="plugin-38" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chrome;vlc"/>
+      <property name="known-players" type="string" value="Chrome;Chromium;vlc"/>
     </property>
     <property name="plugin-39" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chrome;vlc"/>
+      <property name="known-players" type="string" value="Chrome;Chromium;vlc"/>
     </property>
     <property name="plugin-40" type="string" value="launcher">
       <property name="items" type="array">
@@ -226,6 +228,16 @@
     <property name="plugin-6" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17133295711.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17135847432.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17135852323.desktop"/>
       </property>
     </property>
   </property>
