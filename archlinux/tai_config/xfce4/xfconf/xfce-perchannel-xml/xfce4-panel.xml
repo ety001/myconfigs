@@ -182,6 +182,7 @@
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="org.flameshot.Flameshot.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
         <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="org.remmina.Remmina.desktop"/>
