@@ -9,6 +9,6 @@ Include = /etc/pacman.d/mirrorlist
 pacman -S wine wine-gecko wine-mono winetricks \
         lib32-nvidia-utils \
         lib32-alsa-lib lib32-alsa-plugins \
-        lib32-libpulse
+        lib32-libpulse  lib32-libxrandr
 
 ```
