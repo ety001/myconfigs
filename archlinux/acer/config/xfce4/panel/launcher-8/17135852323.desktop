@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=QQMusic
+Comment=
+Exec=/home/ety001/Apps/qqmusic-1.1.5.AppImage --no-sandbox
+Icon=audio-x-generic
+Path=
+Terminal=false
+StartupNotify=false
