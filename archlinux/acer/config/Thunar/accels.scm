@@ -4,7 +4,6 @@
 ; (gtk_accel_path "<Actions>/ThunarActionManager/restore" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/undo" "<Primary>z")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-all-files" "<Primary>a")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/e0b31cb66ffb3f24dec7eee8389f3987" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-dtime" "")
 ; (gtk_accel_path "<Actions>/ThunarStatusBar/toggle-last-modified" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "")
