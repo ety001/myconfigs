@@ -6,7 +6,7 @@ GenericName[zh_CN]=网页浏览器
 Comment=Access the Internet
 Comment[zh_CN]=访问互联网
 StartupWMClass=Google-chrome
-Exec=/usr/bin/google-chrome-stable %U --proxy-server="127.0.0.1:7890"
+Exec=/usr/bin/google-chrome-stable %U --proxy-server="127.0.0.1:8001"
 StartupNotify=true
 Terminal=false
 Icon=google-chrome
