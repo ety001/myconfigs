@@ -41,6 +41,23 @@
       <property name="Active" type="bool" value="false"/>
       <property name="EDID" type="string" value=""/>
     </property>
+    <property name="eDP-1" type="string" value="笔记本电脑">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="227f64447c1c7e4853da616ce17bb5934aecc88d"/>
+      <property name="Resolution" type="string" value="1366x768"/>
+      <property name="RefreshRate" type="double" value="60.003140703517587"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.2999999523162842"/>
+        <property name="Y" type="double" value="1.2999999523162842"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
   </property>
   <property name="Fallback" type="empty">
     <property name="HDMI-0" type="string" value="Analogix Semiconductor, Inc 72&quot;">
@@ -80,6 +97,23 @@
     <property name="None-1-1" type="string" value="None-1-1">
       <property name="Active" type="bool" value="false"/>
       <property name="EDID" type="string" value=""/>
+    </property>
+    <property name="eDP-1" type="string" value="笔记本电脑">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="227f64447c1c7e4853da616ce17bb5934aecc88d"/>
+      <property name="Resolution" type="string" value="1366x768"/>
+      <property name="RefreshRate" type="double" value="60.003140703517587"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="empty">
+        <property name="X" type="double" value="1.2999999523162842"/>
+        <property name="Y" type="double" value="1.2999999523162842"/>
+      </property>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
     </property>
   </property>
   <property name="Notify" type="int" value="1"/>
