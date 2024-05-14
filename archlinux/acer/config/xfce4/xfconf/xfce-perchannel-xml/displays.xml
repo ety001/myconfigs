@@ -50,8 +50,8 @@
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="empty">
-        <property name="X" type="double" value="1.2999999523162842"/>
-        <property name="Y" type="double" value="1.2999999523162842"/>
+        <property name="X" type="double" value="1.2000000476837158"/>
+        <property name="Y" type="double" value="1.2000000476837158"/>
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
@@ -107,8 +107,8 @@
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="empty">
-        <property name="X" type="double" value="1.2999999523162842"/>
-        <property name="Y" type="double" value="1.2999999523162842"/>
+        <property name="X" type="double" value="1.2000000476837158"/>
+        <property name="Y" type="double" value="1.2000000476837158"/>
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
