@@ -59,6 +59,9 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (67%)"/>
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (72%)"/>
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (84%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (75%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (69%)"/>
         <value type="string" value="网络管理器小程序"/>

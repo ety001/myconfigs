@@ -9,12 +9,12 @@ EnumerateBackwardKeys=
 EnumerateSkipFirst=False
 
 [Hotkey/TriggerKeys]
-0=Control+space
-1=Zenkaku_Hankaku
+0=Control+Shift+Shift_L
+1=Control+space
 2=Hangul
 
 [Hotkey/AltTriggerKeys]
-0=Shift_L
+0=Shift+Shift_L
 
 [Hotkey/EnumerateGroupForwardKeys]
 0=Super+space
