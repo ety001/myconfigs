@@ -23,7 +23,7 @@ EnumerateSkipFirst=False
 0=Shift+Super+space
 
 [Hotkey/ActivateKeys]
-0=Hangul_Hanja
+0=Shift+Shift_L
 
 [Hotkey/DeactivateKeys]
 0=Hangul_Romaja

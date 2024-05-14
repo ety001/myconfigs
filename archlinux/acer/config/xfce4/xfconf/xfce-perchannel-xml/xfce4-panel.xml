@@ -60,6 +60,8 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (86%)"/>
+        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (79%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (82%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (68%)"/>
