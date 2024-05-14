@@ -18,6 +18,7 @@
         <value type="int" value="1"/>
         <value type="int" value="16"/>
         <value type="int" value="17"/>
+        <value type="int" value="18"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -59,6 +60,9 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (79%)"/>
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (82%)"/>
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (68%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (67%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (72%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (84%)"/>
@@ -122,6 +126,11 @@
     <property name="plugin-17" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17155146392.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17156650121.desktop"/>
       </property>
     </property>
   </property>
