@@ -10,7 +10,7 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     alacarte remmina freerdp spice-gtk gtk-vnc thunderbird systray-x-common \
     telegram-desktop galculator bluez-utils tmux xsel less usbutils \
     xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin vlc xscreensaver \
-    ipmitool gnu-netcat websocat wget
+    ipmitool gnu-netcat websocat wget xarchiver unrar unzip zip p7zip
 
 sudo gpasswd -a ety001 cups
 
