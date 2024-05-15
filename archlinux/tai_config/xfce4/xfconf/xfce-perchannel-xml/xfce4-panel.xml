@@ -126,6 +126,7 @@
         <value type="string" value="blueman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="baidunetdisk"/>
         <value type="string" value="remmina"/>
         <value type="string" value="qq"/>
         <value type="string" value="telegramdesktop"/>
@@ -186,6 +187,7 @@
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="baidunetdisk.desktop"/>
         <value type="string" value="vlc.desktop"/>
         <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="org.flameshot.Flameshot.desktop"/>
