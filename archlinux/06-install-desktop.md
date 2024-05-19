@@ -55,9 +55,9 @@ gpasswd -a ety001 nopasswdlogin
 
 `~/.i18n`
 ```
-export LANGUAGE=zh_CN.utf8
-export LANG=zh_CN.utf8
-export LC_ALL=en_US.utf8
+export LANGUAGE=zh_CN.UTF-8
+export LANG=zh_CN.UTF-8
+export LC_ALL=en_US.UTF-8
 ```
 
 `~/.config/xfce4/xinitrc`
