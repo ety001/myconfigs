@@ -6,11 +6,11 @@
     <value type="int" value="1"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="position" type="string" value="p=8;x=820;y=905"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="16"/>
-      <property name="size" type="uint" value="26"/>
+      <property name="icon-size" type="uint" value="26"/>
+      <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
         <value type="int" value="14"/>
@@ -19,6 +19,7 @@
         <value type="int" value="16"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
+        <value type="int" value="19"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -60,6 +61,8 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="fcitx5 tray window"/>
+        <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (85%)"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (86%)"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="wi-fi 网络连接“ety_zte”已激活：ety_zte (79%)"/>
@@ -87,6 +90,9 @@
     <property name="plugin-12" type="string" value="clock">
       <property name="timezone" type="string" value="Asia/Shanghai"/>
       <property name="digital-time-format" type="string" value="%T"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="digital-date-font" type="string" value="UbuntuMono Nerd Font Mono 14"/>
+      <property name="digital-time-font" type="string" value="UbuntuMono Nerd Font Mono 14"/>
     </property>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -103,9 +109,11 @@
         <value type="string" value="code.desktop"/>
         <value type="string" value="slack.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
+        <value type="string" value="filezilla.desktop"/>
       </property>
       <property name="button-icon" type="string" value="org.xfce.panel.applicationsmenu"/>
       <property name="recent" type="array">
+        <value type="string" value="filezilla.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
       </property>
     </property>
@@ -137,6 +145,11 @@
     <property name="plugin-18" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17156650121.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17157566071.desktop"/>
       </property>
     </property>
   </property>
