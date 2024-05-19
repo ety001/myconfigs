@@ -12,3 +12,11 @@ pacman -S wine wine-gecko wine-mono winetricks \
         lib32-libpulse  lib32-libxrandr
 
 ```
+
+```
+WINEPREFIX=~/.game WINEARCH=win32 winetricks gdiplus riched20 riched30
+```
+
+```
+WINEPREFIX=~/.game WINEARCH=win32 winetricks allfonts
+```
