@@ -110,9 +110,11 @@
         <value type="string" value="slack.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
         <value type="string" value="filezilla.desktop"/>
+        <value type="string" value="com.usebottles.bottles.desktop"/>
       </property>
       <property name="button-icon" type="string" value="org.xfce.panel.applicationsmenu"/>
       <property name="recent" type="array">
+        <value type="string" value="com.usebottles.bottles.desktop"/>
         <value type="string" value="filezilla.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
       </property>

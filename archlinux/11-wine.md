@@ -1,3 +1,10 @@
+```
+flatpak install flathub com.usebottles.bottles
+```
+
+
+---
+
 1. 启用 multilib, `/etc/pacman.conf`
 ```
 [multilib]
