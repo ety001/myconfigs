@@ -20,6 +20,7 @@
         <value type="int" value="17"/>
         <value type="int" value="18"/>
         <value type="int" value="19"/>
+        <value type="int" value="20"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -110,11 +111,11 @@
         <value type="string" value="slack.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
         <value type="string" value="filezilla.desktop"/>
-        <value type="string" value="com.usebottles.bottles.desktop"/>
       </property>
       <property name="button-icon" type="string" value="org.xfce.panel.applicationsmenu"/>
       <property name="recent" type="array">
-        <value type="string" value="com.usebottles.bottles.desktop"/>
+        <value type="string" value="wine-Programs-Microsoft Games for Windows Marketplace-Games for Windows Marketplace.desktop"/>
+        <value type="string" value="com.github.tchx84.Flatseal.desktop"/>
         <value type="string" value="filezilla.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
       </property>
@@ -152,6 +153,11 @@
     <property name="plugin-19" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17157566071.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17161886531.desktop"/>
       </property>
     </property>
   </property>
