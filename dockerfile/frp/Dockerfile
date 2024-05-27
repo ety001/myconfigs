@@ -4,7 +4,7 @@ RUN apk --no-cache add git go && git clone https://github.com/fatedier/frp.git
 RUN cd /app/frp && \
     LDFLAGS="-s -w" && \
     env CGO_ENABLED=0 go build -trimpath -ldflags "${LDFLAGS}" -tags frps -o bin/frps ./cmd/frps && \
-    env CGO_ENABLED=0 go build -trimpath -ldflags "${LDFLAGS}" -tags frps -o bin/frps ./cmd/frps
+    env CGO_ENABLED=0 go build -trimpath -ldflags "${LDFLAGS}" -tags frpc -o bin/frpc ./cmd/frpc
 
 FROM alpine:latest as final
 RUN mkdir -p /usr/local/bin
