@@ -31,3 +31,11 @@ sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code
 ```
+
+### snapcraft
+```
+sudo apt update
+sudo apt install snapd
+sudo apt install libsquashfuse0 squashfuse fuse
+sudo snap install core
+```
