@@ -110,6 +110,7 @@
     </property>
     <property name="plugin-19" type="string" value="systray">
       <property name="known-items" type="array">
+        <value type="string" value="043191a0-2a37-11ef-94ac-97697357d2e0"/>
         <value type="string" value="chrome_status_icon_2"/>
         <value type="string" value="SysTray-X"/>
         <value type="string" value="vlc"/>
@@ -183,11 +184,16 @@
         <value type="string" value="com.obsproject.Studio.desktop"/>
         <value type="string" value="parsecd.desktop"/>
         <value type="string" value="com.moonlight_stream.Moonlight.desktop"/>
+        <value type="string" value="com.valvesoftware.SteamLink.desktop"/>
+        <value type="string" value="org.localsend.localsend_app.desktop"/>
       </property>
       <property name="view-mode" type="int" value="0"/>
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="recent" type="array">
+        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="openra-d2k.desktop"/>
         <value type="string" value="com.moonlight_stream.Moonlight.desktop"/>
         <value type="string" value="baidunetdisk.desktop"/>
         <value type="string" value="vlc.desktop"/>
@@ -195,7 +201,6 @@
         <value type="string" value="org.flameshot.Flameshot.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
         <value type="string" value="org.remmina.Remmina.desktop"/>
-        <value type="string" value="code.desktop"/>
       </property>
     </property>
     <property name="plugin-34" type="string" value="whiskermenu">
