@@ -55,6 +55,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="SysTray-X"/>
         <value type="string" value="remmina-icon"/>
         <value type="string" value="flameshot"/>
         <value type="string" value="obs"/>
@@ -98,7 +99,6 @@
         <value type="string" value="org.xfce.mousepad.desktop"/>
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
-        <value type="string" value="org.remmina.Remmina.desktop"/>
         <value type="string" value="org.mozilla.Thunderbird.desktop"/>
       </property>
       <property name="recent" type="array">
@@ -185,6 +185,7 @@
     </property>
     <property name="plugin-1" type="string" value="launcher">
       <property name="items" type="array">
+        <value type="string" value="17184205591.desktop"/>
       </property>
     </property>
   </property>
