@@ -102,6 +102,7 @@
         <value type="string" value="org.mozilla.Thunderbird.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="org.gnome.seahorse.Application.desktop"/>
         <value type="string" value="com.moonlight_stream.Moonlight.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
       </property>
