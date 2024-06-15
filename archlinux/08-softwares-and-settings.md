@@ -10,7 +10,8 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     alacarte remmina freerdp spice-gtk gtk-vnc thunderbird systray-x-common \
     telegram-desktop galculator bluez-utils tmux xsel less usbutils \
     xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin vlc xscreensaver \
-    ipmitool gnu-netcat websocat wget xarchiver unrar unzip zip p7zip cloudflared
+    ipmitool gnu-netcat websocat wget xarchiver unrar unzip zip \
+    p7zip cloudflared aria2
 
 sudo gpasswd -a ety001 cups
 
@@ -80,4 +81,18 @@ git config --global user.name "ety001"
 # Notepad--
 ```
 yay -S notepad--
+```
+
+# Change download tools of makepkg
+[refer](https://akawa.ink/2022/03/27/makepkg-curl-aria2c?highlight=makepkg)
+
+File: `/etc/makepkg.conf`.
+
+```
+DLAGENTS=('file::/usr/bin/curl -qgC - -o %o %u'
+	  'ftp::/usr/bin/aria2c -UWget -s4 %u -o %o'
+	  'http::/usr/bin/aria2c -UWget -s4 %u -o %o'
+	  'https::/usr/bin/aria2c -UWget -s4 %u -o %o'
+          'rsync::/usr/bin/rsync --no-motd -z %u %o'
+          'scp::/usr/bin/scp -C %u %o')
 ```
