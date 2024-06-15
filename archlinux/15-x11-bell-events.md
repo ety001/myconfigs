@@ -1,0 +1,9 @@
+edit `/etc/pulse/default.pa.d/` or `~/.config/pulse/default.pa`
+
+```
+.include /etc/pulse/default.pa
+
+# audible bell
+load-sample-lazy bell-window-system /usr/share/sounds/freedesktop/stereo/bell.oga
+load-module module-x11-bell
+```
