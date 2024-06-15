@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Name[zh_CN]=Mousepad
+Name=Mousepad
+Comment[zh_CN]=简易文本编辑器
+Comment=Simple Text Editor
+GenericName[zh_CN]=文本编辑器
+GenericName=Text Editor
+Exec=mousepad %U
+Icon=org.xfce.mousepad
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Utility;TextEditor;GTK;
+MimeType=text/plain;application/x-zerosize;
+Actions=preferences;
+X-XFCE-Source=file:///usr/share/applications/org.xfce.mousepad.desktop
+
+[Desktop Action preferences]
+Name[zh_CN]=Mousepad 首选项
+Name=Mousepad Preferences
+Exec=mousepad --preferences
