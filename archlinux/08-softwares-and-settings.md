@@ -83,20 +83,6 @@ git config --global user.name "ety001"
 yay -S notepad--
 ```
 
-# Change download tools of makepkg
-[refer](https://akawa.ink/2022/03/27/makepkg-curl-aria2c?highlight=makepkg)
-
-File: `/etc/makepkg.conf`.
-
-```
-DLAGENTS=('file::/usr/bin/curl -qgC - -o %o %u'
-	  'ftp::/usr/bin/aria2c -UWget -s4 %u -o %o'
-	  'http::/usr/bin/aria2c -UWget -s4 %u -o %o'
-	  'https::/usr/bin/aria2c -UWget -s4 %u -o %o'
-          'rsync::/usr/bin/rsync --no-motd -z %u %o'
-          'scp::/usr/bin/scp -C %u %o')
-```
-
 # PAM using the keyring
 
 edit `/etc/pam.d/login` for console-based login.

@@ -171,7 +171,7 @@
     </property>
     <property name="plugin-32" type="string" value="separator"/>
     <property name="plugin-33" type="string" value="whiskermenu">
-      <property name="button-icon" type="string" value="archlinux-logo"/>
+      <property name="button-icon" type="string" value="applications-all"/>
       <property name="favorites" type="array">
         <value type="string" value="xfce4-file-manager.desktop"/>
         <value type="string" value="xfce4-terminal-emulator.desktop"/>

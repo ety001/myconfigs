@@ -29,7 +29,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
+          <property name="last-image" type="string" value="/home/ety001/.local/share/wallpapers/XFCE 96 No Logo.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0.46666666666666667"/>
             <value type="double" value="0.46274509803921571"/>
@@ -69,7 +69,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/ety001/Pictures/超清_从神舟十六号看中国空间站.jpeg"/>
+          <property name="last-image" type="string" value="/home/ety001/.local/share/wallpapers/XFCE 96 No Logo.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0.46666666666666667"/>
             <value type="double" value="0.46274509803921571"/>
@@ -87,7 +87,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-shapes.svg"/>
+          <property name="last-image" type="string" value="/home/ety001/.local/share/wallpapers/XFCE 96 No Logo.png"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
