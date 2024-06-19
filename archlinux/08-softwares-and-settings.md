@@ -102,3 +102,21 @@ session    include      system-local-login
 *session    optional     pam_gnome_keyring.so auto_start*
 
 ```
+
+# PulseAudio console control command
+
+toggle mute
+```
+/usr/bin/pamixer -t
+```
+
+increase sound
+```
+/usr/bin/pamixer -i 5
+```
+
+decrease sound
+```
+/usr/bin/pamixer -d 5
+```
+
