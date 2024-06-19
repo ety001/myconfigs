@@ -9,7 +9,7 @@ sudo pacman -S filezilla gimp mpv smplayer obs-studio cups samba \
     docker-buildx firefox firefox-i18n-zh-cn axel libcanberra flameshot \
     alacarte remmina freerdp spice-gtk gtk-vnc thunderbird systray-x-common \
     telegram-desktop galculator bluez-utils tmux xsel less usbutils \
-    xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin vlc xscreensaver \
+    xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin vlc \
     ipmitool gnu-netcat websocat wget xarchiver unrar unzip zip \
     p7zip cloudflared aria2 seahorse fuse2fs fuse2 pamixer
 
