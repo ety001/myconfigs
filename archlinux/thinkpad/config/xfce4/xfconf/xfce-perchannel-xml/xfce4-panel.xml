@@ -93,7 +93,7 @@
       <property name="launcher-icon-size" type="int" value="3"/>
       <property name="category-icon-size" type="int" value="2"/>
       <property name="menu-opacity" type="int" value="92"/>
-      <property name="button-icon" type="string" value="org.xfce.panel.applicationsmenu"/>
+      <property name="button-icon" type="string" value="pop-cosmic-applications"/>
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="favorites" type="array">
