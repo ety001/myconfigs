@@ -120,3 +120,8 @@ decrease sound
 /usr/bin/pamixer -d 5
 ```
 
+# LocalSend
+
+```
+yay -S localsend-bin
+```
