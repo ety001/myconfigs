@@ -56,6 +56,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="352759f0-3489-11ef-9006-85badfdc8930"/>
         <value type="string" value="SysTray-X"/>
         <value type="string" value="remmina-icon"/>
         <value type="string" value="flameshot"/>
@@ -104,6 +105,7 @@
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="virtualbox.desktop"/>
         <value type="string" value="org.mozilla.Thunderbird.desktop"/>
+        <value type="string" value="org.localsend.localsend_app.desktop"/>
       </property>
       <property name="recent" type="array">
         <value type="string" value="htop.desktop"/>
