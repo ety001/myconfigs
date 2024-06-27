@@ -4,7 +4,7 @@ protocol=VNC
 name=win11
 ssh_tunnel_server=
 username=
-password=f0uVPUoIGI0=
+password=.
 quality=9
 disablesmoothscrolling=0
 window_width=1100

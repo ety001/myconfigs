@@ -4,7 +4,7 @@ protocol=VNC
 name=companyVPN
 ssh_tunnel_server=
 username=
-password=f0uVPUoIGI0=
+password=.
 quality=0
 disablesmoothscrolling=0
 window_width=1100

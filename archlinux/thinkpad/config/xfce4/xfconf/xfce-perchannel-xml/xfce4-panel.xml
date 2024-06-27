@@ -20,6 +20,7 @@
         <value type="int" value="22"/>
         <value type="int" value="23"/>
         <value type="int" value="1"/>
+        <value type="int" value="11"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -64,6 +65,9 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="正在配置 wi-fi 网络连接“ety001_home_5g”……"/>
+        <value type="string" value="remmina"/>
+        <value type="string" value="wi-fi 网络连接“ety001_home_5g”已激活：ety001_home_5g (62%)"/>
         <value type="string" value="没有网络连接"/>
       </property>
     </property>
@@ -103,6 +107,7 @@
       </property>
       <property name="recent" type="array">
         <value type="string" value="htop.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
         <value type="string" value="moonlight-qt.desktop"/>
         <value type="string" value="org.gnome.seahorse.Application.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
@@ -187,6 +192,11 @@
     <property name="plugin-1" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="17184205591.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17186775291.desktop"/>
       </property>
     </property>
   </property>
