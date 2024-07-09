@@ -56,6 +56,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="1038fa10-348c-11ef-b811-4fc646372b5a"/>
         <value type="string" value="352759f0-3489-11ef-9006-85badfdc8930"/>
         <value type="string" value="SysTray-X"/>
         <value type="string" value="remmina-icon"/>
@@ -66,6 +67,9 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="网络管理器小程序"/>
+        <value type="string" value="正在为“ety001_hiwifi_5g”请求网络地址……"/>
+        <value type="string" value="wi-fi 网络连接“ety001_home_5g”已激活：ety001_home_5g (63%)"/>
         <value type="string" value="正在配置 wi-fi 网络连接“ety001_home_5g”……"/>
         <value type="string" value="remmina"/>
         <value type="string" value="wi-fi 网络连接“ety001_home_5g”已激活：ety001_home_5g (62%)"/>
@@ -106,8 +110,10 @@
         <value type="string" value="virtualbox.desktop"/>
         <value type="string" value="org.mozilla.Thunderbird.desktop"/>
         <value type="string" value="org.localsend.localsend_app.desktop"/>
+        <value type="string" value="org.telegram.desktop.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="firefox.desktop"/>
         <value type="string" value="htop.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
         <value type="string" value="moonlight-qt.desktop"/>
@@ -198,6 +204,7 @@
     </property>
     <property name="plugin-11" type="string" value="launcher">
       <property name="items" type="array">
+        <value type="string" value="17204895111.desktop"/>
       </property>
     </property>
   </property>
