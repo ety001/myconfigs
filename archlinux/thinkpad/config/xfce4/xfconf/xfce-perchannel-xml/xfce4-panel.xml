@@ -7,7 +7,7 @@
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=8;x=960;y=1059"/>
-      <property name="length" type="uint" value="100"/>
+      <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="35"/>
@@ -34,6 +34,7 @@
         <value type="int" value="12"/>
         <value type="int" value="13"/>
       </property>
+      <property name="output-name" type="string" value="Primary"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -67,6 +68,7 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="正在配置 wi-fi 网络连接“ety001_hiwifi_5g”……"/>
         <value type="string" value="网络管理器小程序"/>
         <value type="string" value="正在为“ety001_hiwifi_5g”请求网络地址……"/>
         <value type="string" value="wi-fi 网络连接“ety001_home_5g”已激活：ety001_home_5g (63%)"/>
