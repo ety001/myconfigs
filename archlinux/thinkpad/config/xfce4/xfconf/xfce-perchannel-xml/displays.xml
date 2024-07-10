@@ -24,7 +24,7 @@
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="d851ee257688987e49bd958aff05d1becd81a21b"/>
       <property name="Resolution" type="string" value="2560x1440"/>
-      <property name="RefreshRate" type="double" value="74.598911121882352"/>
+      <property name="RefreshRate" type="double" value="59.950550105254798"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -55,10 +55,10 @@
       </property>
     </property>
     <property name="DVI-I-1-1" type="string" value="BOE 27&quot;">
-      <property name="Active" type="bool" value="false"/>
+      <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="3fdb93916e3be38a4a8da3c43b65a83a4e033a39"/>
-      <property name="Resolution" type="string" value="1600x1200"/>
-      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Resolution" type="string" value="2560x1440"/>
+      <property name="RefreshRate" type="double" value="59.950550105254798"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -68,7 +68,7 @@
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="4480"/>
-        <property name="Y" type="int" value="240"/>
+        <property name="Y" type="int" value="0"/>
       </property>
     </property>
   </property>
@@ -94,7 +94,7 @@
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="d851ee257688987e49bd958aff05d1becd81a21b"/>
       <property name="Resolution" type="string" value="2560x1440"/>
-      <property name="RefreshRate" type="double" value="74.598911121882352"/>
+      <property name="RefreshRate" type="double" value="59.950550105254798"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -125,10 +125,10 @@
       </property>
     </property>
     <property name="DVI-I-1-1" type="string" value="BOE 27&quot;">
-      <property name="Active" type="bool" value="false"/>
+      <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="3fdb93916e3be38a4a8da3c43b65a83a4e033a39"/>
-      <property name="Resolution" type="string" value="1600x1200"/>
-      <property name="RefreshRate" type="double" value="60"/>
+      <property name="Resolution" type="string" value="2560x1440"/>
+      <property name="RefreshRate" type="double" value="59.950550105254798"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -138,7 +138,7 @@
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="4480"/>
-        <property name="Y" type="int" value="240"/>
+        <property name="Y" type="int" value="0"/>
       </property>
     </property>
   </property>

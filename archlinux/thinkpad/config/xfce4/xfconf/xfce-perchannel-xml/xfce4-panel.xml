@@ -68,6 +68,7 @@
         <value type="string" value="Fcitx"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="以太网连接“wired connection 1”已激活"/>
         <value type="string" value="正在配置 wi-fi 网络连接“ety001_hiwifi_5g”……"/>
         <value type="string" value="网络管理器小程序"/>
         <value type="string" value="正在为“ety001_hiwifi_5g”请求网络地址……"/>
