@@ -45,6 +45,7 @@
       <property name="length-adjust" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="14"/>
+        <value type="int" value="19"/>
         <value type="int" value="24"/>
         <value type="int" value="26"/>
         <value type="int" value="27"/>
@@ -73,6 +74,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="1038fa10-348c-11ef-b811-4fc646372b5a"/>
         <value type="string" value="352759f0-3489-11ef-9006-85badfdc8930"/>
         <value type="string" value="SysTray-X"/>
@@ -135,12 +137,17 @@
         <value type="string" value="org.mozilla.Thunderbird.desktop"/>
         <value type="string" value="org.localsend.localsend_app.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
+        <value type="string" value="slack.desktop"/>
+        <value type="string" value="com.valvesoftware.SteamLink.desktop"/>
+        <value type="string" value="moonlight-qt.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="moonlight-qt.desktop"/>
+        <value type="string" value="org.fcitx.Fcitx5.desktop"/>
+        <value type="string" value="slack.desktop"/>
         <value type="string" value="firefox.desktop"/>
         <value type="string" value="htop.desktop"/>
         <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="moonlight-qt.desktop"/>
         <value type="string" value="org.gnome.seahorse.Application.desktop"/>
         <value type="string" value="org.telegram.desktop.desktop"/>
       </property>
@@ -233,6 +240,10 @@
     </property>
     <property name="plugin-14" type="string" value="whiskermenu">
       <property name="button-icon" type="string" value="applications-all"/>
+      <property name="view-mode" type="int" value="0"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="category-icon-size" type="int" value="2"/>
+      <property name="position-categories-alternate" type="bool" value="true"/>
     </property>
     <property name="plugin-24" type="string" value="tasklist">
       <property name="show-labels" type="bool" value="true"/>
@@ -254,6 +265,11 @@
       <property name="digital-date-font" type="string" value="Source Code Pro Medium 10"/>
       <property name="digital-time-font" type="string" value="Source Code Pro Medium 10"/>
       <property name="digital-time-format" type="string" value="%T"/>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17207043441.desktop"/>
+      </property>
     </property>
   </property>
 </channel>
