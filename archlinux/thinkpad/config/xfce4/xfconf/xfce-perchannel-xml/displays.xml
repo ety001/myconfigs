@@ -10,14 +10,14 @@
       <property name="RefreshRate" type="double" value="60.049470542540575"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
+      <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="2560"/>
-        <property name="Y" type="int" value="0"/>
+        <property name="X" type="int" value="1563"/>
+        <property name="Y" type="int" value="1453"/>
       </property>
     </property>
     <property name="DP2" type="string" value="BOE 27&quot;">
@@ -34,7 +34,7 @@
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
+        <property name="Y" type="int" value="13"/>
       </property>
     </property>
     <property name="HDMI2" type="string" value="BOE 27&quot;">
@@ -61,13 +61,13 @@
       <property name="RefreshRate" type="double" value="59.950550105254798"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
+      <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="4480"/>
+        <property name="X" type="int" value="2560"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
@@ -80,14 +80,14 @@
       <property name="RefreshRate" type="double" value="60.049470542540575"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
+      <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="2560"/>
-        <property name="Y" type="int" value="0"/>
+        <property name="X" type="int" value="1563"/>
+        <property name="Y" type="int" value="1453"/>
       </property>
     </property>
     <property name="DP2" type="string" value="BOE 27&quot;">
@@ -104,7 +104,7 @@
       </property>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
+        <property name="Y" type="int" value="13"/>
       </property>
     </property>
     <property name="HDMI2" type="string" value="BOE 27&quot;">
@@ -131,13 +131,13 @@
       <property name="RefreshRate" type="double" value="59.950550105254798"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
+      <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
       </property>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="4480"/>
+        <property name="X" type="int" value="2560"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>

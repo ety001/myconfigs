@@ -2,7 +2,7 @@
 4.10.3+=true
 
 [回收站]
-row=1
+row=0
 col=0
 
 [/home/ety001]
