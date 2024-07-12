@@ -106,6 +106,8 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
       <property name="known-players" type="string" value="Chrome"/>
+      <property name="volume-step" type="uint" value="2"/>
+      <property name="play-sound" type="bool" value="true"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -142,6 +144,7 @@
         <value type="string" value="moonlight-qt.desktop"/>
       </property>
       <property name="recent" type="array">
+        <value type="string" value="dev.zed.Zed.desktop"/>
         <value type="string" value="moonlight-qt.desktop"/>
         <value type="string" value="org.fcitx.Fcitx5.desktop"/>
         <value type="string" value="slack.desktop"/>
@@ -259,6 +262,10 @@
     <property name="plugin-27" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="known-players" type="string" value="Chrome"/>
+      <property name="play-sound" type="bool" value="true"/>
+      <property name="rec-indicator-persistent" type="bool" value="false"/>
+      <property name="show-notifications" type="uint" value="0"/>
+      <property name="volume-step" type="uint" value="2"/>
     </property>
     <property name="plugin-28" type="string" value="clock">
       <property name="timezone" type="string" value="Asia/Shanghai"/>

@@ -24,6 +24,7 @@
   <property name="tab-activity-color" type="string" value="#dc322f"/>
   <property name="font-name" type="string" value="UbuntuMono Nerd Font 14"/>
   <property name="misc-middle-click-opens-uri" type="bool" value="true"/>
-  <property name="run-custom-command" type="bool" value="true"/>
+  <property name="run-custom-command" type="bool" value="false"/>
   <property name="custom-command" type="string" value="/usr/bin/tmux"/>
+  <property name="misc-default-geometry" type="string" value="120x40"/>
 </channel>
