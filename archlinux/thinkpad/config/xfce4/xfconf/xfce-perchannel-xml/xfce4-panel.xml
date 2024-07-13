@@ -144,7 +144,6 @@
         <value type="string" value="moonlight-qt.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="dev.zed.Zed.desktop"/>
         <value type="string" value="moonlight-qt.desktop"/>
         <value type="string" value="org.fcitx.Fcitx5.desktop"/>
         <value type="string" value="slack.desktop"/>
