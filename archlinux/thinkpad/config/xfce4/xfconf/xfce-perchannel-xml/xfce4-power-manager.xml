@@ -15,6 +15,6 @@
     <property name="dpms-on-ac-off" type="uint" value="0"/>
     <property name="brightness-level-on-ac" type="uint" value="50"/>
     <property name="critical-power-action" type="uint" value="2"/>
-    <property name="lid-action-on-ac" type="uint" value="1"/>
+    <property name="lid-action-on-ac" type="uint" value="0"/>
   </property>
 </channel>
